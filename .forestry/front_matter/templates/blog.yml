@@ -22,6 +22,10 @@ fields:
 - type: datetime
   name: date
   label: Date
+  hidden: true
+  config:
+    date_format: ''
+  default: ''
 - type: text
   name: type
   label: type
